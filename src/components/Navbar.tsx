@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { soul, menu, close } from "../assets";
-import soulIcon from "/soulIcon.png"
+import { menu, close } from "../assets";
+import soulIcon from "/soulIcon.png";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
